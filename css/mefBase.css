@@ -32,7 +32,7 @@ main > section{
 }
 
 .produit {
-    src: "/img/image-product-mobile.jpg";
+    src: "img/image-product-mobile.jpg";
     margin-top: 2.5%;
     width: 95%;
 }
@@ -122,7 +122,7 @@ h2{
 }
 
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 400px){
 main{
     height: 40%;
     flex-direction: row;
@@ -139,7 +139,7 @@ main{
     width: 50%;
 }
 #product{
-    content: url("/img/image-product-desktop.jpg");
+    content: url("img/image-product-desktop.jpg");
     height: 500px;
     border-radius: var(--pictureRadius) 0 0 var(--pictureRadius);
     object-fit: cover;
