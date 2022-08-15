@@ -139,7 +139,7 @@ main{
     width: 50%;
 }
 #product{
-    content: url("img/image-product-desktop.jpg");
+    content: url("./img/image-product-desktop.jpg");
     height: 500px;
     border-radius: var(--pictureRadius) 0 0 var(--pictureRadius);
     object-fit: cover;
